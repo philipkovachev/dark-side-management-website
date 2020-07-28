@@ -1,0 +1,104 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.yellow-h3 {
+    color: #ffbb01;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: 17%; */
+    padding-right: 50px;
+    padding: 25px;
+}
+
+.content {
+    padding: 10px;
+}
+
+
+.container__text {
+    width: 20%;
+    font-style: italic;
+}
+
+__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+}
+
+__text {
+    display: inline-block;
+    width: 46%;
+}
+
+.right-part-h1 {
+ font-size: 150px;
+}
+
+.right-part-h2 {
+    font-size: 40px;
+    margin-top: -60px;
+}
+
+.first-content-right-col-img {
+    height: 75%;
+    width: 90%;
+}
+
+.get-in-touch-section {
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .careers-button {
+      width: 500px;
+  }
+  
+  .get-in-touch-section-h3 {
+      font-size: 25px;
+  }
+  
+  .mb-left {
+      margin-left: 5%;
+  }
+
+
+@media (max-width: 560px) {
+    .container{
+        flex-direction: column;
+        margin-left: 0%;
+        padding-right: 0px;
+        padding: 0px;
+    }
+    .right-part-h1 {
+        font-size: 60px;
+    }
+
+    .right-part-h2 {
+        font-size: 20px;
+        margin-top: -60px;
+    }
+
+    .first-content-left-col {
+       margin-left: 5%;
+    }
+
+    .container__text > p {
+        width: 100vw
+    }
+
+    .mb-left {
+        margin-left: 0%;
+    }
+}
+

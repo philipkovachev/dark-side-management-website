@@ -1,0 +1,131 @@
+.svg {
+    background-image: url(/assets/images/hands-pc.svg);
+    height: 150px;
+    width: 150px;
+}
+
+.pc-img {
+    height: 80%;
+    width: 60%;
+}
+
+.solutions-first-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.first-text {
+    font-size: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #e8e8e8;
+    line-height: 0.9;
+    font-weight: bold;
+}
+
+.solutions-first-section-text {
+    color: #01568a;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.main-section {
+    display: flex;
+    align-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.right-part {
+    margin-left: 10%;
+}
+
+.solution-p {
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.bottom-container-h3 {
+    color: #01568a;
+    font-size: 25px;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+.bottom-container-p {
+    font-family: 'Segoe UI',sans-serif;
+    font-size: 18px;
+ }
+
+ .bottom-container-button {
+     color: white;
+     background-color:#e7af17;
+     margin-top: 20px;
+     border: none;
+     width: 463px;
+     height: 92px;
+ }
+
+ .second-text {
+     margin-top: -53px;
+ }
+
+ @media (max-width: 640px) {
+    .small-button {
+        width: 331px;
+        height: 92px;
+        margin-top: 8%;
+        margin-left: 12%;
+        background-color: #e7af17;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        color: white;
+        border: none;
+    }
+
+    .main-section {
+         flex-direction: column;
+    }
+
+    .right-part {
+        margin-left: 0px;
+    }
+
+    .solutions-first-section {
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 500px;
+    }
+
+    .pc-img {
+     width: 50%;
+    }
+
+    .a-container {
+      flex-direction: column;
+    }
+
+    .bottom-container-button {
+        width: 50%;
+        font-size: 15px;
+    }
+}
+
+.right-part-box {
+    margin-top: 8%;
+}
