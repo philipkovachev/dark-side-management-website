@@ -5,8 +5,9 @@
 }
 
 .pc-img {
+    display: block;
     height: 80%;
-    width: 60%;
+    max-width: 100%;
 }
 
 .solutions-first-section {
@@ -110,10 +111,6 @@
 
     .footer {
         width: 500px;
-    }
-
-    .pc-img {
-     width: 50%;
     }
 
     .a-container {
